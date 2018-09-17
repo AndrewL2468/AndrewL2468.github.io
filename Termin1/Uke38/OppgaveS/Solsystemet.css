@@ -1,0 +1,31 @@
+body{
+  background-color:rgb(0, 0, 0);
+  background-image: url("bilder/Supernova.jpg");
+  background-attachment: fixed;
+  background-size:100% 100%;
+    )
+
+
+}
+p{color: white; border:2px;border_color:yellow}
+a{color:red}
+
+header>h1{
+  color: white;
+  text-align: center;
+  border-color: Yellow;
+  border: 2px
+
+}
+main{display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  border-width:5px;
+  border-color:yellow
+}
+main>p{color:white;
+main:hove
+
+
+}
