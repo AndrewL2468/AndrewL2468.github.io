@@ -14,7 +14,7 @@ header>h1{
   color: white;
   text-align: center;
   border-color: Yellow;
-  border: 2px
+  border: 2px;
 
 }
 main{display: grid;
@@ -22,10 +22,7 @@ main{display: grid;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   border-width:5px;
-  border-color:yellow
+  border-color:yellow;
 }
 main>p{color:white;
-main:hove
-
-
 }
