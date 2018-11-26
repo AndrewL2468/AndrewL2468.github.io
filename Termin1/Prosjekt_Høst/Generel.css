@@ -1,0 +1,68 @@
+body{
+  font-style: normal;
+  font-size: 24px ;
+background-image: url(bilder/Numbers1.1.jpg);
+background-repeat: repeat;
+}
+
+header{
+  background-color: rgb(58,156,255);
+  padding: 25px;
+  margin: -10px -10px 5px -10px;
+    font-size:32px;
+}
+/*nav{
+  display: grid;
+  grid-template-columns:repeat(6, 1fr) ;
+  text-align: center;
+}*/
+
+nav>a{
+  color:white;
+text-decoration: none;
+text-align: right;
+  margin-left: 6%;
+  }
+  nav>img{
+    width:200px;
+  }
+    nav>a:hover{
+      color:black;
+}
+.Navigasjon{
+  background-color: purple;
+  padding: 5px;
+  margin: -10px -10px 0px -10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+    .Navigasjon>a{
+          margin-left:10%;
+          color:white;
+          text-decoration: none;
+
+    }
+    .Navigasjon>a:hover{
+      color:black;
+}
+
+main{
+  background-color: white;
+  padding:8px;
+  margin:0px 10% 8px 10%;
+ }
+ h2{
+   text-align: center;
+   font-size: 400px,
+ }
+
+footer{
+  background-color: gray;
+  color:black;
+  font-size: 16px;
+    padding:20px;
+    margin: 0px -10px -100px -10px;
+}
+#UUU{
+  opacity: 100%;
+}

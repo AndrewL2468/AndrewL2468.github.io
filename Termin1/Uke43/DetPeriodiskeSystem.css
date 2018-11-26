@@ -1,0 +1,22 @@
+.gass{background-color: orange}
+.vakum{opacity: 0
+}
+.halvmetal{
+  background-color: lightgreen;
+}
+.metal{
+  background-color: dodgerblue;
+}
+article{
+  font-size: 30px;
+  text-align: center;
+  margin:1px;
+}
+p{
+  font-size: 15px;
+  text-align: center;
+}
+div{
+  border: 1px solid black;
+  margin: 2px;
+}

@@ -1,0 +1,45 @@
+body{
+
+  background-color:black;
+}
+header{
+  display:grid;
+  grid-template-columns:1fr,1fr;
+  background-color: red;
+  height: 100px;
+  padding:10px;
+}
+main{
+  margin-right: 140px;
+  margin-left: 140px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(200px,auto);
+  grid-gap:5px;
+}
+main article{
+  background-color: darkgrey;
+  grid-gap:5px;
+}
+
+.giga{
+  grid-column: span 7;
+  grid-row: span 2;
+  font-size: 100px;
+  height: 500px;
+
+}
+article img{
+  width: 100%;
+  height: 300px;
+}
+.liten{
+  grid-column:span 2;
+
+}
+.liten img{
+  width:100%
+}
+.lang{
+  grid-column: span 7;
+}
