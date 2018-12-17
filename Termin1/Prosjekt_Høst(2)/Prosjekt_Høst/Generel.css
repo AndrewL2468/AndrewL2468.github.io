@@ -11,6 +11,11 @@ header{
   margin: -10px -10px 5px -10px;
     font-size:32px;
 }
+/*nav{
+  display: grid;
+  grid-template-columns:repeat(6, 1fr) ;
+  text-align: center;
+}*/
 
 nav>a{
   color:white;
@@ -49,11 +54,6 @@ main{
   padding-left:-10%;
   margin:0px 10% 8px 10%;
  }
- main>img{
-   width:700px;
-   padding-left: 222px;
-
- }
  h1{
    text-align: center;
    font-size: 80px;
@@ -68,7 +68,7 @@ main{
  }
  .Clickbaits{
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(2, 1fr);
    border-color:black;
   }
   .Clickbaits>article{
@@ -76,9 +76,7 @@ main{
     border-color:black;
     border:10px;
   }
-  a>img{
-    padding-left: 220px;
-  }
+  
 footer{
   background-color: gray;
   color:black;
@@ -95,6 +93,4 @@ footer{
 }
 #EasterEgg:hover{
 
-}
-div>img{width: 200px;
 }
