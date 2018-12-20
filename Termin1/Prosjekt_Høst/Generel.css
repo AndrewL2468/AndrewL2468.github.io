@@ -7,7 +7,7 @@ background-repeat: repeat;
 
 header{
   background-color: rgb(58,156,255);
-  padding: 25px;
+  padding: 40px;
   margin: -10px -10px 5px -10px;
     font-size:32px;
 }
@@ -50,7 +50,6 @@ main{
   margin:0px 10% 8px 10%;
  }
  main>img{
-   width:700px;
    padding-left: 222px;
 
  }
@@ -66,18 +65,39 @@ main{
    text-align: center;
    font-size: 45px;
  }
+ h4{
+   text-align: center;
+ }
  .Clickbaits{
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns:2fr 1fr;
    border-color:black;
-  }
-  .Clickbaits>article{
     padding:10px;
+    padding-left: 200px;
+    padding-right: 200px;
     border-color:black;
     border:10px;
   }
-  a>img{
-    padding-left: 220px;
+  .Clickbaits>a>img{
+    padding-left: -222px;
+    padding:15;
+    height: 110px;
+  }
+  .Clickbaits>p{
+    border:5px;
+    padding10px;
+  }
+  }
+  article{
+    padding:16px;
+    padding-left:7%;
+    margin:0px 10% 8px 10%;
+  }
+  .BildeText{
+    font-size: 20px;
+    padding:16px;
+    padding-left:7%;
+    margin:0px 15% 8px 10%;
   }
 footer{
   background-color: gray;
@@ -93,8 +113,8 @@ footer{
   padding-left:200px;
   padding-right: 200px;
 }
+
+
 #EasterEgg:hover{
 
-}
-div>img{width: 200px;
 }
