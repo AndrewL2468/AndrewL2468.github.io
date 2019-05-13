@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CommandTower</title>
+    <link rel="stylesheet" href="CommandTower.css">
+    <script src="CommandTower.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBIR2kauffdUnO2tnIUG6o-vYOYGmi4Z1g",
+          authDomain: "databaser-f2d8a.firebaseapp.com",
+          databaseURL: "https://databaser-f2d8a.firebaseio.com",
+          projectId: "databaser-f2d8a",
+          storageBucket: "databaser-f2d8a.appspot.com",
+          messagingSenderId: "422757594128"
+        };
+        firebase.initializeApp(config);
+      </script>
+  </head>
+  <body>
+    <header>
+        <a href="CommandTower.html" alt="Hovedside" > <img src="bilder/Logo-Tower1.1.jpg" alt="Logo"> </a>
+        <a href="CommandTower.html"><button>Startside</button></a>
+        <button onclick="visKort()">Kort</button>
+        <button onclick="visSett()">Sett</button>
+        <div class="søkebarLiten">
+          <input type="text" placeholder="Søk.."> </input>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+
+      <script>
+        const main = document.querySelector("main");
+        const db = firebase.database();
+        const kort = db.ref("Prosjekt/Varer/Kort");
+        const sett = db.ref("Prosjekt/Varer/Sett");
+
+        visStartside();
+        function genererStartside(snapshot){
+          main.innerHTML =`
+              <style >
+                main{grid-template-columns: 1fr; margin-right: 20%;}
+              </style>
+                <h1 id="overskrift">Velkomen til Commanders Tower.  Finn alle dine commandor produkter her!</h1>
+                <div class="søkebarStor">
+                  <input type="text" placeholder="Søk.." class="søkebarStor"> </input>
+                </div>
+                <div id="k1m">
+                  <button  onclick="visAlfabetisk()" class="menyKnapper">Alfabetisk</button>
+                  <button  onclick="visMpop()" class="menyKnapper"      >Mest populære</button>
+                  <button  onclick="visDyreste()" class="menyKnapper"   >Dyreste</button>
+                  <button  onclick="visBilligste()" class="menyKnapper" >Billigste</button>
+                </div>
+            <div id="mellomRom"></div>
+            `;
+        }
+        function genererHTMLKort(snapshot){
+          console.log(snapshot.val());
+          let kort = snapshot.val();
+          let key = snapshot.key;
+
+          main.innerHTML +=`
+            <article class="Kloss">
+                <style>
+                  main{
+                    background-color:white;
+                  }
+                </style>
+              <a href="CommandStats.html?id=${key}"><img src="bilder/${kort.Forsidebilde}" alt=""></a>
+            </article>       `
+        }
+
+      </script>
+    <footer>
+      <p>Om oss</p>                               <p>Magic: The Gathering</p>                            <p>Kundeservis</p>
+      <a href="OmOss.html" class="Foter">CommandTower</a>  <a href="https://www.wikipedia.org/wiki/Magic:_The_Gathering" class="Foter" target="_blank">Hva er MTG</a>               <a href="CommandTower.html" class="Foter">StartSide</a>
+      <a href="OmOss.html" class="Foter">Våre vilkår</a>   <a href="https://www.magic.wizards.com/en/content/commander-format" class="Foter" target="_blank">Hvordan spille commandor</a> <a href="#" class="Foter">Min handlekurv</a>
+      <a href="#" class="Foter"></a>              <a href="#" class="Foter"></a>                         <a href="" class="Foter">Hjelp</a>
+    </footer>
+  </body>
+</html>

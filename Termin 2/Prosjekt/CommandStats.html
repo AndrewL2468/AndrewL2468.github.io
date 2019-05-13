@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CommandStats</title>
+    <link rel="stylesheet" href="CommandStats.css">
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBIR2kauffdUnO2tnIUG6o-vYOYGmi4Z1g",
+        authDomain: "databaser-f2d8a.firebaseapp.com",
+        databaseURL: "https://databaser-f2d8a.firebaseio.com",
+        projectId: "databaser-f2d8a",
+        storageBucket: "databaser-f2d8a.appspot.com",
+        messagingSenderId: "422757594128"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="CommandTower.html" alt="Hovedside" > <img src="bilder/Logo-Tower1.1.jpg" alt="Logo"> </a>
+      <a href="CommandTower.html"><button>Startside</button></a>
+      <button onclick="visKort()">.</button>
+      <div class="søkebarLiten">
+        <input type="text" placeholder="Søk.."> </input>
+      </div>
+    </header>
+
+    <main>
+      <section id="statBilde"> </section>
+      <section id="statInfo"></section>
+      <section id="statVisning"></section>
+    </main>
+    <script src="CommandStats.js"></script>
+    <script>
+
+
+  //  if (id.chartAt(0) === "K"){
+  //    kort.on("value",genererHTML);
+  //  }
+  //  else if(id.chartAt(0) === "S"){
+  //    kort.on("value",genererHTML)
+  //  }
+      varer.on("value",visStats);
+    </script>
+
+    <footer>
+      <p>Om oss</p>                               <p>Magic: The Gathering</p>                            <p>Kundeservis</p>
+      <a href="#" class="Foter">CommandTower</a>  <a href="https://www.wikipedia.org/wiki/Magic:_The_Gathering" class="Foter" target="_blank">Hva er MTG</a>               <a href="CommandTower.html" class="Foter">StartSide</a>
+      <a href="#" class="Foter">Våre vilkår</a>   <a href="https://www.magic.wizards.com/en/content/commander-format" class="Foter" target="_blank">Hvordan spille commandor</a> <a href="#" class="Foter">Min handlekurv</a>
+      <a href="#" class="Foter"></a>              <a href="#" class="Foter"></a>                         <a href="" class="Foter">Hjelp</a>
+      <a href="#" class="Foter"></a>              <a href="#"></a>
+    </footer>
+  </body>
+</html>

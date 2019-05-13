@@ -1,0 +1,129 @@
+body{
+  background-color: gray;
+  width:99%;
+}
+*{box-sizing: border-box;}
+Header{
+  background-color: rgb(100,50,170);
+
+  padding:0px;
+  border:0px;
+  border-bottom: 1px;
+  border-bottom-color: Black;
+  border-style: solid;
+  margin: -8px;
+
+}
+header img{
+  height: 54px;
+}
+header button{
+  background-color: rgb(100,50,170);
+  border: none;
+  color: Black;
+  padding:18px 40px;
+  border:0px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+header button:hover{
+  color:rgb(220,220,220);
+  background-color: rgb(100,90,200);
+
+}
+.søkebarLiten{
+  float: right;
+  padding:16px;
+  background-color: rgb(100,50,170);
+}
+a{
+  color:white;
+}
+header a{
+  float:left;
+}
+main{
+  background-color: rgb(240,240,240);
+
+  min-height: 575px;
+  padding-top:50px;
+  padding-left:50px;
+  min-height:675px;
+  margin:8px 22px 0px 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+img{
+  max-height: 500px;
+  text-align: center;
+}
+article{
+  padding-left: 50px;
+  font-size: 35px;
+}
+.infoVare{
+  background-color: rgb(255,255,255);
+  padding:50px;
+}
+@media (max-width: 1500px){
+    main{
+      grid-template-columns: repeat(2,1fr)
+
+    }}
+@media (max-width: 1050px){
+  main{
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+  }}
+#leggTil{
+  background-color: yellow;
+  border-style: solid;
+  border-color: Black;
+  padding:20px;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+#leggTil:hover{
+  background-color: white;
+}
+footer{
+  background-color: rgb(60, 60, 60);
+  padding:10px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  border:0px;
+  margin:-8px;
+
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+
+  color:rgb(200,200,200);
+}
+footer a{
+  font-size: 18px;
+  text-decoration: none;
+  color:rgb(200,200,200);
+  padding:2px;
+}
+footer a:hover{
+  color:rgb(360, 360, 360);
+}
+footer p{
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom:5px;
+}
+.medium{
+width:100%;
+}
+#k1m{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}

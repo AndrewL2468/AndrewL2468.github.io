@@ -1,0 +1,248 @@
+{
+  "Annet":"Verdi",
+  "Varer":  {
+    "Kort": {
+        "Kort101": {
+          "Bilde": ["Sol-ring.jpg","Cyclonic-rift.jpg"],
+          "Forsidebilde":"Sol-ring.jpg",
+          "Navn" : "Sol ring",
+          "Farge": "collerless",
+          "Type" : "Artifact",
+          "Pris" : 4.54
+        },
+        "Kort102": {
+          "Bilde": "Swords-to-plowshares.jpg",
+          "Forsidebilde":"Swords-to-plowshares.jpg",
+          "Navn" : "Swords to plowshares",
+          "Farge": "White",
+          "Type" : "Instant",
+          "Pris" : 1.79
+        },
+        "Kort103": {
+          "Bilde": "Cyclonic-rift.jpg",
+          "Forsidebilde":"Cyclonic-rift.jpg",
+          "Navn" : "Cyclonic rift",
+          "Farge": "Blue",
+          "Type" : "Instant",
+          "Pris" : 24.99
+        },
+        "Kort104": {
+          "Bilde": "Cultivate.jpg",
+          "Forsidebilde":"Cultivate.jpg",
+          "Navn" : "Cultivate",
+          "Farge": "green",
+          "Type" : "Sorcery",
+          "Pris" : 0.99
+        },
+        "Kort105": {
+          "Bilde": "Counterspell.jpg",
+          "Forsidebilde":"Counterspell.jpg",
+          "Navn" : "Counterspell",
+          "Farge": "Blue",
+          "Type" : "Instant",
+          "Pris" : 1.2
+        },
+        "Kort106": {
+          "Bilde": "Izzet-Signet.jpg",
+          "Forsidebilde":"Izzet-Signet.jpg",
+          "Navn" : "Izzet Signet",
+          "Farge": "Colorless",
+          "Type" : "Artifact",
+          "Pris" : 0.68
+        },
+        "Kort107": {
+          "Bilde": "Eternal-Witness.jpg",
+          "Forsidebilde":"Eternal-Witness.jpg",
+          "Navn" : "Eternal Witness",
+          "Farge": "Green",
+          "Type" : "Creature",
+          "Pris" : 3.94
+        },
+        "Kort108": {
+          "Bilde": "Rakdos-Signet.jpg",
+          "Forsidebilde":"Rakdos-Signet.jpg",
+          "Navn" : "Rakdos Signet",
+          "Farge": "Colorless",
+          "Type" : "Artifact",
+          "Pris" : 1.04
+        },
+        "Kort109": {
+          "Bilde": "Orzhov-Signet.jpg",
+          "Forsidebilde":"Orzhov-Signet.jpg",
+          "Navn" : "Orzhov Signet",
+          "Farge": "Colorless",
+          "Type" : "Artifact",
+          "Pris" : 0.37
+        },
+        "Kort110": {
+          "Bilde": "Kodama-s-reach.jpg",
+          "Forsidebilde":"Kodama-s-reach.jpg",
+          "Navn" : "Kodama's Reach",
+          "Farge": "Green",
+          "Type" : "Sorcery",
+          "Pris" : 1.47
+        },
+        "Kort111": {
+          "Bilde": "Putrefy.jpg",
+          "Forsidebilde":"Putrefy.jpg",
+          "Navn" : "Putrefy",
+          "Farge": ["Green","Black"],
+          "Type" : "Instant",
+          "Pris" : 0.16
+        },
+        "Kort112": {
+          "Bilde": "Anguished-Unmaking.jpg",
+          "Forsidebilde":"Anguished-Unmaking.jpg",
+          "Navn" : "Anguished Unmaking",
+          "Farge": ["White","Black"],
+          "Type" : "Instant",
+          "Pris" : 5.99
+        },
+        "Kort113": {
+          "Bilde": "Merciless-Eviction.jpg",
+          "Forsidebilde":"Merciless-Eviction.jpg",
+          "Navn" : "Merciless Eviction",
+          "Farge": ["White","Black"],
+          "Type" : "Sorcery",
+          "Pris" : 3.49
+        },
+        "Kort114": {
+          "Bilde": "Sakura-Tribe-Elder.jpg",
+          "Forsidebilde":"Sakura-Tribe-Elder.jpg",
+          "Navn" : "Sakura-Tribe Elder",
+          "Farge": "Green",
+          "Type" : "Creature",
+          "Pris" : 1.70
+        },
+        "Kort115": {
+          "Bilde": "Demonic-Tutor.jpg",
+          "Forsidebilde":"Demonic-Tutor.jpg",
+          "Navn" : "Demonic Tutor",
+          "Farge": "Black",
+          "Type" : "Sorcery",
+          "Pris" : 22.11
+        },
+        "Kort116": {
+          "Bilde": "Lightning-Greaves.jpg",
+          "Forsidebilde":"Lightning-Greaves.jpg",
+          "Navn" : "Lightning Greaves",
+          "Farge": "Colorless",
+          "Type" : "Instant",
+          "Pris" : 6.31
+        },
+        "Kort117": {
+          "Bilde": "Supreme-Verdict.jpg",
+          "Forsidebilde":"Supreme-Verdict.jpg",
+          "Navn" : "Supreme Verdict",
+          "Farge": ["White","Blue"],
+          "Type" : "Sorcery",
+          "Pris" : 4.61
+        },
+        "Kort118": {
+          "Bilde": "Totally-Lost.jpg",
+          "Forsidebilde":"Totally-Lost.jpg",
+          "Navn" : "Totally Lost",
+          "Farge": "Blue",
+          "Type" : "Instant",
+          "Pris" : 1.29
+        },
+        "Kort119": {
+          "Bilde": "Jace-the-mind-sculptor.jpg",
+          "Forsidebilde":"Jace-the-mind-sculptor.jpg",
+          "Navn" : "Jace, The Mind Sculptor",
+          "Farge": "Blue",
+          "Type" : "Planeswalker",
+          "Pris" : 114.55
+        },
+        "Kort120": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort121": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort122": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort123": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort124": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort125": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort126": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort127": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort128": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort129": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        },
+        "Kort130": {
+          "Bilde": "Nicol-bolas-planeswalker.jpg",
+          "Forsidebilde":"Nicol-bolas-planeswalker.jpg",
+          "Navn" : "Nicol Bolas, Planeswalker",
+          "Farge": ["Blue","Black","Red"],
+          "Type" : "Planeswalker",
+          "Pris" : 5.42
+        }
+    },
+    "Sett": "Commandor"
+  }
+}
